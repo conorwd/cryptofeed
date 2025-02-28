@@ -16,7 +16,7 @@ from aiohttp import web
 
 from cryptofeed import FeedHandler
 from cryptofeed.callback import TradeCallback
-from cryptofeed.defines import TRADES, TICKER
+from cryptofeed.defines import TRADES
 from cryptofeed.exchanges import Binance, Coinbase, Kraken
 
 # Store connected websocket clients
