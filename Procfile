@@ -1,0 +1,1 @@
+web: python crypto_price_server.py 
